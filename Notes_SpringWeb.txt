@@ -1,0 +1,23 @@
+
+Hi 
+
+This is backend application that read json file remotly.
+
+This application reqiure spring 4 framework. 
+This is maven build application.
+pom.xml have all jars for this application.
+Also a web server (I have used appache tomcat 9) is reqiure.
+MySql database is used for retrieving.
+
+
+This is spring-boot backend source code.
+
+This application contain /tours/refresh function that refresh the MySql database.
+When the name is ​null​ then all tours will be imported from the remote JSON file.
+When the name is a given word then only tours whose name contain the given word will be imported. 
+
+/tours is used to get all tours from Mysql database.
+/findToursByName this will return the tour with matching name.
+
+
+Thanks Faizullah
